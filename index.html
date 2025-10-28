@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Multi YouTube Lives</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="app">
+        <aside id="sidebar">
+            <header>
+                <h1>Meus Canais</h1>
+            </header>
+            <div id="channels-list" class="channels-list"></div>
+            <button id="add-channel" class="add-btn" title="Adicionar canal">+</button>
+            <div class="sidebar-footer">
+                <button id="share-link" class="icon-btn" title="Compartilhar todos 🔗">🔗
+                    <small>Compartilhar suas Lives</small>
+                </button>
+            </div>
+        </aside>
+        <main id="main">
+            <div id="grid" class="grid"></div>
+            <div id="controls-bottom" class="controls-bottom">
+                <small>Dica: alguns navegadores bloqueiam autoplay se não houver interação — players inicializam com
+                    mute para garantir autoplay.</small>
+            </div>
+        </main>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
