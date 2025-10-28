@@ -270,7 +270,6 @@ body {
     display: flex;
     flex-direction: row;
     overflow: auto;
-    overflow-x: hidden;
   }
   .channel-item {
     min-width: 200px;
@@ -279,3 +278,4 @@ body {
     order: 1;
   }
 }
+
