@@ -4,7 +4,6 @@
 # Multi Lives Youtube
 
 ```md
-# Multi-Lives-Youtube
 
 Player web para exibição simultânea de múltiplas lives do YouTube.
 
@@ -39,7 +38,7 @@ Basta abrir o arquivo `index.html` em um navegador.
   "tags": [
     "HTML",
     "CSS",
-    "JS",
+    "JS"
   ]
 }
 PORTFOLIO_DATA_END -->
